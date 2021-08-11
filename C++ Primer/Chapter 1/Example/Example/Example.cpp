@@ -6,6 +6,10 @@
 int main()
 {
     std::cout << "Hello World!\n";
+	std::cout << "Please Enter Tow Numbers:" << std::endl;
+	int v1 = 0, v2 = 0;
+	std::cin >> v1 >> v2;
+	std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << std::endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
