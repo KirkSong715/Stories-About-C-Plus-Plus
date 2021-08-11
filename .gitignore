@@ -3,6 +3,13 @@ C++ Primer/Chapter 1/Example/Debug/
 C++ Primer/Chapter 1/Example/x64/
 C++ Primer/Chapter 1/Example/Example/x64/
 C++ Primer/Chapter 1/Example/Example/Debug/
+C++ Primer/Chapter 1/BookSalesSystem/debug/
+C++ Primer/Chapter 1/BookSalesSystem/release/
+*.stash
+ui*.h
+Makefile
+*.Debug
+*.Release
 *.vcxproj
 *.sln
 *.exe
