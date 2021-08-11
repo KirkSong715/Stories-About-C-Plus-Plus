@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#include "sales_item.h"
+
 int main()
 {
     std::cout << "hello world!\n";
@@ -61,27 +63,29 @@ int main()
 	//std::cout << "sum is: " << sum << std::endl;
 
 	// 问题就是 如果后续再来一个跟前边相同的数字，没法将出现次数再次加到前边去。
-	int curValue = 0, value = 0;
-	if (std::cin >> curValue)
-	{
-		int count_curValue = 1;
-		while (std::cin >> value)
-		{
-			if (curValue == value)
-			{
-				count_curValue++;
-			}
-			else  //说明 接下来的这个数已经不是原来的数了
-			{
-				std::cout << "The number " << curValue << " occurs " << count_curValue << " times " << std::endl;
+	//int curValue = 0, value = 0;
+	//if (std::cin >> curValue)
+	//{
+	//	int count_curValue = 1;
+	//	while (std::cin >> value)
+	//	{
+	//		if (curValue == value)
+	//		{
+	//			count_curValue++;
+	//		}
+	//		else  //说明 接下来的这个数已经不是原来的数了
+	//		{
+	//			std::cout << "The number " << curValue << " occurs " << count_curValue << " times " << std::endl;
 
-				curValue = value;
-				count_curValue = 1;
-			}
+	//			curValue = value;
+	//			count_curValue = 1;
+	//		}
 
-		}
-		std::cout << "The number " << curValue << " occurs " << count_curValue << " times " << std::endl;
-	}
+	//	}
+	//	std::cout << "The number " << curValue << " occurs " << count_curValue << " times " << std::endl;
+	//}
+
+	//SalesItem item_sales;  在类的学习过程中，使用了书中提供的头文件，这个需要我们后续进行重新编译。
 
 	return 0;
 

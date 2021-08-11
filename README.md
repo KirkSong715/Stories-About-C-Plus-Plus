@@ -19,7 +19,12 @@
 3. 注释简介
     + 关于注释的编码规范，查看Google C++ Style Guide
 4. 控制流
+    + while
+    + for
+    + if
+    + 
 5. 类简介
+    + SalesItem 类
 6. 书店程序
 7. 总结以及术语表
 
