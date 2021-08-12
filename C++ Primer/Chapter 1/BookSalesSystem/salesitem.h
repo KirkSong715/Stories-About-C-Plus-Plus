@@ -6,7 +6,6 @@
 using namespace std;
 class SalesItem
 {
-
     friend std::istream operator>>(std::istream&, SalesItem&);  //友元函数
     friend std::ostream operator<<(std::ostream&, const SalesItem&);
     friend bool operator<(const SalesItem&, const SalesItem&);

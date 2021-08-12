@@ -3,7 +3,6 @@
 
 #include <iostream>
 
-#include "sales_item.h"
 
 int main()
 {
