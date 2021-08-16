@@ -51,6 +51,12 @@ int main(int argc, char *argv[])
 
 //    ref = &value;  //
 
+    // 关于练习题
+    int* ip;  // int类型的指针
+    int i;  // int类型的变量
+    int &r = i; //引用 是一种绑定，对引用的所有操作，都是对其引用变量的操作
+
+
 
 
     return a.exec();
